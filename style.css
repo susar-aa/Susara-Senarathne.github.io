@@ -1,0 +1,76 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+header .nav-list li {
+    margin-left: 20px;
+}
+
+header .nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .nav-list a:hover {
+    color: #f4a261;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px;
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+
+#projects .project {
+    margin: 10px 0;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+form button:hover {
+    background: #f4a261;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
